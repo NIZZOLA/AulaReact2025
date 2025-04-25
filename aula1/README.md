@@ -96,10 +96,10 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 ```
 
-Vemos no layout que o componente “<Navbar />” inserido no corpo do App.js é o responsável pela exibição do menu da aplicação.
+Vemos no layout que o componente "< Navbar />" inserido no corpo do App.js é o responsável pela exibição do menu da aplicação.
 
-
-
+Agora a página do seu navegador deverá ser exibida com o visual a seguir, contemplando o menu
+![Tela do navegador com o site rodando](images/image03.png)
 
 ## Trecho gerado pelo NPM
 

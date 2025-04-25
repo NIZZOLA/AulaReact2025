@@ -14,7 +14,6 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/maps" element={<Mapa />} />
         {/* Adicione mais rotas conforme necessário */}
       </Routes>
     </Router>

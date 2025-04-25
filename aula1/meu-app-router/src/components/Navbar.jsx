@@ -8,7 +8,6 @@ export default function Navbar() {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">Sobre</Link></li>
         <li><Link to="/contact">Contato</Link></li>
-        <li><Link to="/maps">Mapa</Link></li>
       </ul>
     </nav>
   );
