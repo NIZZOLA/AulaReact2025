@@ -51,9 +51,11 @@ O projeto base que foi criado possui a seguinte estrutura
 Teremos que criar 2 novas pastas dentro de Src:  
 - components   
 - pages   
+   
 Dentro de Components, crie 2 arquivos:   
 - Navbar.css   
 - Navbar.jsx   
+   
 Dentro de pages, crie 3 arquivos:   
 - About.jsx   
 - Contact.jsx   
@@ -61,12 +63,40 @@ Dentro de pages, crie 3 arquivos:
 
 Agora teremos que colocar o código em cada um dos arquivos:  
 Arquivo: Navbar.jsx   
-[Ver código completo do Navbar.jsx](./meu-app-router/src/components/Navbar.jsx)
+[Ver código completo](./meu-app-router/src/components/Navbar.jsx)
 
 Arquivo: Navbar.css   
-[Ver código completo do Navbar.css](./meu-app-router/src/components/Navbar.css)
+[Ver código completo](./meu-app-router/src/components/Navbar.css)
+
+Arquivo: About.jsx   
+[Ver código completo](./meu-app-router/src/components/About.jsx)
+
+Arquivo: Contact.jsx   
+[Ver código completo](./meu-app-router/src/components/Contact.jsx)
+
+Arquivo: Home.jsx   
+[Ver código completo](./meu-app-router/src/components/Home.jsx)
+
+Feito isso, agora só falta implementar as mudanças no arquivo App.js o qual já foi criado baseado no template, mas que deve ser modificado ficando assim:   
+Arquivo: App.jsx   
+[Ver código completo](./meu-app-router/src/App.jsx)
 
 
+Neste arquivo está o ponto mais importante, pois vemos que estão sendo criadas as rotas que apontam para os endereços das páginas   
+Rota	Componente
+/	Home
+/about	About
+/contact	Contact
+
+Vemos no topo que os comandos “import” estão incluindo os componentes criados nos arquivos Home.jsx, About.jsx e Contact.jsx para serem referência nos comandos “Route” , assim como o componente “Navbar” que é o menu da aplicação.
+```bash
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+```
+
+Vemos no layout que o componente “<Navbar />” inserido no corpo do App.js é o responsável pela exibição do menu da aplicação.
 
 
 
