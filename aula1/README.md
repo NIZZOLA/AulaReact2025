@@ -38,7 +38,7 @@ Ele vai iniciar o servidor, carregando a aplicação no seu navegador através d
 
 Caso tudo isso dê certo, você verá a seguinte tela no seu navegador:
 
-![Tela do navegador com o site rodando](document/images/image01.png)
+![Tela do navegador com o site rodando](images/image01.png)
 
 Observações:   
 Em caso de erros no passo inicial, checar se na pasta do seu usuário no Windows existe uma pasta appdata/roaming/npm, caso ela não existir, crie sem nenhum item dentro.
@@ -46,7 +46,7 @@ Em caso de erros no passo inicial, checar se na pasta do seu usuário no Windows
 ## Passo 2 - Modificando o projeto base
 
 O projeto base que foi criado possui a seguinte estrutura
-![Tela do navegador com o site rodando](document/images/image02.png)
+![Tela do navegador com o site rodando](images/image02.png)
 
 Teremos que criar 2 novas pastas dentro de Src:  
 - components   
@@ -61,10 +61,10 @@ Dentro de pages, crie 3 arquivos:
 
 Agora teremos que colocar o código em cada um dos arquivos:  
 Arquivo: Navbar.jsx   
-[Ver código completo do Navbar.jsx](./src/components/Navbar.jsx)
+[Ver código completo do Navbar.jsx](./meu-app-router/src/components/Navbar.jsx)
 
 Arquivo: Navbar.css   
-[Ver código completo do Navbar.css](./src/components/Navbar.css)
+[Ver código completo do Navbar.css](./meu-app-router/src/components/Navbar.css)
 
 
 
