@@ -1,0 +1,14 @@
+
+.productbox {
+    border: 5px solid blue;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #CCC;
+    font-size: 18px;
+  }
+  
+  .productPicture {
+    width: 150px;
+  }
