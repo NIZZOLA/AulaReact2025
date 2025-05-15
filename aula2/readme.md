@@ -6,21 +6,21 @@ Para iniciar o processo, podemos criar alguns arquivos novos que são:
 Na pasta src/components:
     
 ProductItem.jsx
-[Ver código completo](./meu-app-router/src/components/ProductItem.jsx)
+[Ver código completo](../aula1/meu-app-router/src/components/ProductItem.jsx)
 
 ProductItem.module.css
-[Ver código completo](./meu-app-router/src/components/ProductItem.module.css)
+[Ver código completo](../aula1/meu-app-router/src/components/ProductItem.module.css)
     
 ProductList.jsx
-[Ver código completo](./meu-app-router/src/components/ProductList.jsx)
+[Ver código completo](../aula1/meu-app-router/src/components/ProductList.jsx)
     
 ProductList.module.jsx
-[Ver código completo](./meu-app-router/src/components/ProductList.module.css)
+[Ver código completo](../aula1/meu-app-router/src/components/ProductList.module.css)
 
 Na pasta src/pages:
 
 ProductsPage.jsx
-[Ver código completo](./meu-app-router/src/pages/ProductsPage.jsx)
+[Ver código completo](../aula1/meu-app-router/src/pages/ProductsPage.jsx)
 
 Footer.jsx
-[Ver código completo](./meu-app-router/src/components/Footer.jsx)    
+[Ver código completo](../aula1/meu-app-router/src/components/Footer.jsx)    
