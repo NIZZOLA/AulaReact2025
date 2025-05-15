@@ -41,9 +41,9 @@ Veja que no arquivo app.js (1,2) as modificações apontadas pelas setas mostram
 Depois no conteúdo html, veja que foi incluído no menu a rota para ProductsPage.
 Além disso ao final, foi incluído o Footer através da tag. 
 
-components/Navbar.jsx
-![Alterações realizadas no arquivo navbar.jsx](navbarjs.png)
+components/Navbar.jsx  
+![Alterações realizadas no arquivo navbar.jsx](navbarjs.png)  
 Explicando as alterações:  
-Incluindo uma linha para o menu.
- 
+Incluindo uma linha para o menu.  
+
 
