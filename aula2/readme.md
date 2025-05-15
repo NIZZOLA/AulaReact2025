@@ -2,7 +2,7 @@ Passo 2: Criação de componentes
 
 O site terá a inclusão de uma nova página no menu, será a página de produtos, por isso iremos incluir alguns arquivos e realizar modificações no que já foi feito previamente.
 
-Para iniciar o processo, podemos criar alguns arquivos novos que são:
+Para iniciar o processo, podemos criar alguns arquivos novos que são:  
 Na pasta src/components:
     
 ProductItem.jsx
@@ -24,3 +24,9 @@ ProductsPage.jsx
 
 Footer.jsx
 [Ver código completo](../aula1/meu-app-router/src/components/Footer.jsx)    
+
+Depois teremos que modificar arquivos que já existem:
+
+App.js
+
+![Alterações realizadas no arquivo app.js](appjs.png)
