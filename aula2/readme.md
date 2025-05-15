@@ -14,8 +14,14 @@ ProductItem.module.css
 ProductList.jsx
 [Ver código completo](../aula1/meu-app-router/src/components/ProductList.jsx)
     
-ProductList.module.jsx
+ProductList.module.css
 [Ver código completo](../aula1/meu-app-router/src/components/ProductList.module.css)
+
+ProductSearch.jsx
+[Ver código completo](../aula1/meu-app-router/src/components/ProductSearch.sx)
+
+ProductSearch.module.css
+[Ver código completo](../aula1/meu-app-router/src/components/ProductSearch.module.css)
 
 Na pasta src/pages:
 
@@ -37,5 +43,7 @@ Além disso ao final, foi incluído o Footer através da tag.
 
 components/Navbar.jsx
 ![Alterações realizadas no arquivo navbar.jsx](navbarjs.png)
-
+Explicando as alterações:  
+Incluindo uma linha para o menu.
+ 
 
