@@ -28,5 +28,14 @@ Footer.jsx
 Depois teremos que modificar arquivos que já existem:
 
 App.js
-
 ![Alterações realizadas no arquivo app.js](appjs.png)
+
+Explicando as alterações: 
+Veja que no arquivo app.js (1,2) as modificações apontadas pelas setas mostram que foram incluídas no topo, referências para inclusão da página Footer e ProductsPage.   
+Depois no conteúdo html, veja que foi incluído no menu a rota para ProductsPage.
+Além disso ao final, foi incluído o Footer através da tag. 
+
+components/Navbar.jsx
+![Alterações realizadas no arquivo navbar.jsx](navbarjs.png)
+
+
